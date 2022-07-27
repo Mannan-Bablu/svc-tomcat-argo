@@ -7,9 +7,9 @@ metadata:
   namespace: default
 spec:
   ports:
-  - port: 8089
+  - port: 30544
     protocol: TCP
-    targetPort: 30544
+    targetPort: 8089
   selector:
     app: tomcat
   type: NodePort
