@@ -9,7 +9,7 @@ spec:
   ports:
   - port: 8089
     protocol: TCP
-    targetPort: 80
+    targetPort: 30544
   selector:
     app: tomcat
   type: NodePort
